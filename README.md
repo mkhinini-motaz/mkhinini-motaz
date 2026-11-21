@@ -1,6 +1,6 @@
 I'm a full-stack engineer in M'saken, Tunisia. I build web and mobile products with React, Next.js, TypeScript, Laravel and React Native, and I like owning the whole product, from the API to the phone app.
 
-Now I build the front end of high-traffic French e-commerce sites at Decade. Before that I worked on the [Mobility Data Space connector UI](https://github.com/Mobility-Data-Space/mds-edc-ui) at Think-it, and on client projects at Anypli.
+Now I'm a software engineer at Decade, on high-traffic French e-commerce sites. Before that I worked on the [Mobility Data Space connector UI](https://github.com/Mobility-Data-Space/mds-edc-ui) at Think-it, and on client projects at Anypli.
 
 ## Projects
 
@@ -17,7 +17,7 @@ Now I build the front end of high-traffic French e-commerce sites at Decade. Bef
 
 ## Work
 
-- **Decade**, since 2025: front end of e-commerce sites for major French retailers, with React, Next.js and TypeScript. Product, search and listing pages, and the shared components behind them, in a team of about 40.
+- **Decade**, since 2025: software engineer on e-commerce sites for major French retailers, with React, Next.js and TypeScript. Product, search and listing pages, and the shared components behind them, in a team of about 40.
 - **Think-it**, 2024 to 2025: the MDS connector UI, a Gaia-X project funded by the German Federal Ministry of Transport. Server-side rendering, SEO, Playwright end-to-end tests and code reviews.
 - **GhostChef restaurant**, 2021 to 2023: co-founder. I was the sole technical lead and also ran operations: clients, suppliers, marketing and finances.
 - **Anypli**, 2018 to 2022: full-stack work with Laravel, MySQL, React, Next.js, Vue.js and Nuxt. Anypli placed me with client teams such as Webdentiste and Rise Up, and I led the technical side of client projects.
