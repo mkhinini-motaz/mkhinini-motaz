@@ -11,6 +11,7 @@ Now I build the front end of high-traffic French e-commerce sites at Decade. Bef
 - **[Car Rental](https://github.com/mkhinini-motaz/car-rental)**: software to run a small car rental agency in Tunisia (fleet, bookings, contracts, cash book). Built with Claude Code.
   - Laravel API, React Native staff app and Next.js web app; 135 web and 99 API tests; CI.
   - Five UI languages, among them Arabic and two forms of Tunisian Arabic. Car handover works offline on the phone, and money is stored in integer millimes, never floats.
+- **[simulate](https://github.com/mkhinini-motaz/simulate)**: a Claude Code skill built from GhostChef's town simulator. Bots play an app's users against an isolated copy, and a finding counts only when a failing test proves it.
 - **First Car Rental** ([app](https://github.com/mkhinini-motaz/car), [API](https://github.com/mkhinini-motaz/carapi)): the same idea, written by hand from 2024 to 2025.
 - **[msk-log](https://www.npmjs.com/package/msk-log)**: a small npm logger from 2018 that colours console output and can write it to a file.
 
