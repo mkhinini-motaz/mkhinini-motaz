@@ -4,7 +4,7 @@ Now I build the front end of high-traffic French e-commerce sites at Decade. Bef
 
 ## Projects
 
-- **[GhostChef](https://github.com/stars/mkhinini-motaz/lists/ghostchef)**: a food-ordering platform, written by hand from 2019 in Laravel, React, React Native and MySQL. A restaurant I co-founded ran on it from 2021 to 2023, at 200+ orders a day at peak.
+- **[GhostChef](https://github.com/stars/mkhinini-motaz/lists/ghostchef)**: a food-ordering platform, written by hand from 2019 in Laravel, React, React Native and MySQL. [A restaurant I co-founded](https://www.facebook.com/ghostchef.tn) ran on it from 2021 to 2023, at 200+ orders a day at peak.
 - **GhostChef delivery platform**: the rebuild I started in 2026 with Claude Code, in development and private. [Case study](https://github.com/mkhinini-motaz/ghostchef).
   - A Laravel API; Next.js and MUI web apps for admins, shops and customers; four React Native apps for customers, merchants, riders and admins; a Socket.IO realtime server.
   - 364 test files in the API and 366 across the phone apps.
