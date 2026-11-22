@@ -11,9 +11,34 @@ Now I'm a software engineer at Decade, on high-traffic French e-commerce sites. 
 - **[Car Rental](https://github.com/mkhinini-motaz/car-rental)**: software to run a small car rental agency in Tunisia (fleet, bookings, contracts, cash book). Built with Claude Code.
   - Laravel API, React Native staff app and Next.js web app; 135 web and 99 API tests; CI.
   - Five UI languages, among them Arabic and two forms of Tunisian Arabic. Car handover works offline on the phone, and money is stored in integer millimes, never floats.
-- **[simulate](https://github.com/mkhinini-motaz/simulate)**: a Claude Code skill built from GhostChef's town simulator. Bots play an app's users against an isolated copy, and a finding counts only when a failing test proves it.
 - **First Car Rental** ([app](https://github.com/mkhinini-motaz/car), [API](https://github.com/mkhinini-motaz/carapi)): the same idea, written by hand from 2024 to 2025.
-- **[msk-log](https://www.npmjs.com/package/msk-log)**: a small npm logger from 2018 that colours console output and can write it to a file.
+- **[msk-log](https://www.npmjs.com/package/msk-log)** ([code](https://github.com/mkhinini-motaz/logger)): a small npm logger from 2018 that colours console output and can write it to a file.
+
+## Claude Code skills and plugins
+
+Each repository installs as a Claude Code plugin. The skills are `SKILL.md` folders in the [Agent Skills](https://agentskills.io) format.
+
+| Repository | What you get | Install |
+|---|---|---|
+| [simulate](https://github.com/mkhinini-motaz/simulate) | The [`simulate`](https://github.com/mkhinini-motaz/simulate/tree/main/skills/simulate) skill, built from GhostChef's town simulator. Bots play an app's users against an isolated copy, and a finding counts only when a failing test proves it. A demo app with six planted bugs shows it working. | `/plugin install simulate --marketplace mkhinini-motaz/simulate` |
+| [founder-advisors](https://github.com/mkhinini-motaz/founder-advisors) | Ten advisor subagents (CEO, CFO, accountant, legal and six more) that read a company brief first; the [`board`](https://github.com/mkhinini-motaz/founder-advisors/tree/main/plugin/board) skill, 52 persona seats for decisions that are hard to undo; the [`hire`](https://github.com/mkhinini-motaz/founder-advisors/tree/main/plugin/skills/hire) skill to build your own advisors; an eval runner against plain Claude. | `/plugin marketplace add mkhinini-motaz/founder-advisors` |
+| [claude-code-session-toolkit](https://github.com/mkhinini-motaz/claude-code-session-toolkit) | Four skills: [`code-audit`](https://github.com/mkhinini-motaz/claude-code-session-toolkit/tree/main/skills/code-audit), [`harness-audit`](https://github.com/mkhinini-motaz/claude-code-session-toolkit/tree/main/skills/harness-audit), [`plain-prose`](https://github.com/mkhinini-motaz/claude-code-session-toolkit/tree/main/skills/plain-prose) and [`notion-task-pages`](https://github.com/mkhinini-motaz/claude-code-session-toolkit/tree/main/skills/notion-task-pages); a [`worker`](https://github.com/mkhinini-motaz/claude-code-session-toolkit/tree/main/worker-agent) subagent; and 16 more tools, among them [`token-report`](https://github.com/mkhinini-motaz/claude-code-session-toolkit/tree/main/token-report), a [status line](https://github.com/mkhinini-motaz/claude-code-session-toolkit/tree/main/status-line) with plan limits, and hooks that catch [stuck subagents](https://github.com/mkhinini-motaz/claude-code-session-toolkit/tree/main/agent-watch) and [restore context](https://github.com/mkhinini-motaz/claude-code-session-toolkit/tree/main/compact-restore) after compaction. | `/plugin install session-toolkit --marketplace mkhinini-motaz/claude-code-session-toolkit` |
+
+## Code written by hand
+
+These repositories hold the code I wrote before coding agents. Their history is mine, apart from a few early commits by two other people in `food-client`.
+
+| Repository | What it is | Years | Stack |
+|---|---|---|---|
+| [Food](https://github.com/mkhinini-motaz/Food) | GhostChef API. A restaurant ran on it from 2021 to 2023. | 2019 to 2023 | Laravel, MySQL |
+| [food-client](https://github.com/mkhinini-motaz/food-client) | GhostChef customer web app | 2019 to 2023 | React, Redux, Material UI |
+| [food-shop](https://github.com/mkhinini-motaz/food-shop) | GhostChef shop back office | 2021 to 2023 | React, Redux, Material UI |
+| [food-ws](https://github.com/mkhinini-motaz/food-ws) | GhostChef realtime server | 2021 to 2022 | Node.js, Socket.IO |
+| [deliveryapp](https://github.com/mkhinini-motaz/deliveryapp) | GhostChef delivery app: order list, map and status updates | 2021 | React Native, Redux |
+| [ghostclient](https://github.com/mkhinini-motaz/ghostclient) | GhostChef customer phone app | 2023 | React Native, TypeScript |
+| [carapi](https://github.com/mkhinini-motaz/carapi) | First Car Rental API | 2024 to 2025 | Laravel |
+| [car](https://github.com/mkhinini-motaz/car) | First Car Rental phone app | 2024 to 2025 | React Native, TypeScript |
+| [logger](https://github.com/mkhinini-motaz/logger) | msk-log, an npm package | 2018 | Node.js |
 
 ## Work
 
